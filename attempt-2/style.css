@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    /* background: pink; */
+    /* The styles below were copied and pasted. */
+    background: linear-gradient(135deg, #153677, #4e085f);
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    /* The styles above were copied and pasted. */
+}
+
+.todo-app {
+    /* background-color: #fff;
+    border-radius: 20px;
+    padding: 50px; */
+    /* The styles below were copied and pasted. */
+    width: 100%;
+    max-width: 540px;
+    background: #fff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+    /* The styles above were copied and pasted. */
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.top img {
+    width: 2rem;
+    height: 2rem;
+    margin-left: 10px;
+}
+
+.buttons {
+    display: flex;
+
+}
+
+.buttons input {
+    width: 100%;
+}
